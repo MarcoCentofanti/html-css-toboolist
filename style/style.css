@@ -5,8 +5,13 @@
 .bg-color-white{  
   background-color: white;
 }
-.bg-color-lightgrey{
+.bg-color-lightgrey {
   background-color: #f6f8fa;
+}
+.maledetta-striscetta-grigia{
+  border: none;
+  background-color: #f6f8fa;
+  height: 10px;
 }
 .main-logo {
   height: 150px;
@@ -36,25 +41,25 @@
 .container{
   width: 60%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 50px;
 }
 
 
-.tag-section{
+.button-section{
   font-size: 20px;
 }
 
-.tag-color-blue{
+.button-color-blue{
   background-color:#4da8e5 ;
   color: white;
   font-weight: 100;
 }
-.tag-color-white{
+.button-color-white{
   background-color: white ;
   color: #d0d3d4;
 }
 
-.tag-property{
+.button-property{
   display: inline;
   padding: 15px 30px;
   font-family: Arial, Helvetica, sans-serif;
@@ -67,6 +72,60 @@
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
+  margin-bottom: 50px;
 }
 
-.impegni{}
+.font-impegni{
+  display: inline;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  padding-left: 20px;
+}
+
+.checkmark-yes{
+  display: inline;
+  font-size: 30px;
+  color: rgb(2, 213, 2);
+  border: 1px solid rgb(2, 213, 2);
+  border-radius: 50%;
+}
+.checkmark-no{
+  display: inline;
+  font-size: 30px;
+  color: rgb(228, 16, 16);
+  border: 1px solid rgb(228, 16, 16);
+  border-radius: 50%;
+}
+
+.tag{
+  display: inline;
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 20% / 50%;
+  margin-left: 20px;
+}
+.tag-color-blue{
+  background-color: #4da8e5;
+}
+.tag-color-purple{
+  background-color: #9c71df;
+}
+.tag-color-green{
+  background-color: #65c0a8;
+}
+.tag-color-orange{
+  background-color: #f4a038;
+}
+.tag-color-fucsia{
+  background-color: #da5fa2;
+}
+.tag-color-salvia-green{
+  background-color: #adc922;
+}
+.on-off-list-space{
+  margin-bottom: 35px;
+}
+
